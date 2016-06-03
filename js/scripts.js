@@ -50,9 +50,20 @@ $(document).ready(function(){
 
     var vacationResult = indexOfMax(tally);
     console.log(tally);
-    console.log(indexOfMax(tally));
     console.log(vacationResult);
 
+    if (vacationResult === 0) {
+      alert("You should visit China!");
+    } else if (vacationResult === 1) {
+      alert("You should visit Mexico!");
+    } else if (vacationResult === 2) {
+      alert("You should visit England!");
+    } else if (vacationResult === 3) {
+      alert("You should visit Canada!");
+    } else if (vacationResult === 4) {
+      alert("You should visit Germany!");
+    }
+    
 
 
 
