@@ -1,0 +1,9 @@
+.form-group {
+  border-bottom: solid 1px black;
+  background-color: lightgrey;
+  padding-left: 10px
+}
+
+.form-group label {
+  font-style: italic;
+}
