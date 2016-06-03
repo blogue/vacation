@@ -6,9 +6,55 @@
     <script src="js/scripts.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <title></title>
+    <title>Vacation Picker</title>
   </head>
   <body>
+    <div class="container">
+      <form id="user-input" action="index.html" method="post">
+        <h1>Vacation Selector</h1>
+        <h2>Complete the survey for a vacation destination that's fits your personality!</h2>
 
+        <!-- question 1 form -->
+        <div class="form-group">
+          <h3>What's your ideal dinner include? </h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" value="china1" checked>
+              Vegetables and Rice
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" value="mexico1">
+              Anything spicy.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" value="nzealand1">
+              Dinner food.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" value="iceland1">
+              fermented fish.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" value="germany1">
+              cheese, meat and bread.
+            </label>
+          </div>
+      </div>
+
+
+        <button type="submit" name="button">Submit</button>
+      </form>
+      <div id="user-output">
+
+      </div>
+    </div>
   </body>
 </html>
