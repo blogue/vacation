@@ -7,3 +7,32 @@
 .form-group label {
   font-style: italic;
 }
+
+.jumbotron {
+  background-size: cover;
+  padding-top: 30%;
+  padding-bottom: 30%;
+  margin-top: 50px;
+  color: white;
+  text-shadow: 3px 3px #000;
+}
+
+.jumbotron.china {
+  background-image: url(../img/china.jpg);
+}
+
+.jumbotron.mexico {
+  background-image: url(../img/mexico.jpg);
+}
+
+.jumbotron.england {
+  background-image: url(../img/england.jpg);
+}
+
+.jumbotron.canada {
+  background-image: url(../img/canada.jpg);
+}
+
+.jumbotron.germany {
+  background-image: url(../img/germany.jpg);
+}

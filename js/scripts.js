@@ -53,17 +53,17 @@ $(document).ready(function(){
     console.log(vacationResult);
 
     if (vacationResult === 0) {
-      alert("You should visit China!");
+      document.location.href = "result/china.html";
     } else if (vacationResult === 1) {
-      alert("You should visit Mexico!");
+      document.location.href = "result/mexico.html";
     } else if (vacationResult === 2) {
-      alert("You should visit England!");
+      document.location.href = "result/england.html";
     } else if (vacationResult === 3) {
-      alert("You should visit Canada!");
+      document.location.href = "result/canada.html";
     } else if (vacationResult === 4) {
-      alert("You should visit Germany!");
+      document.location.href = "result/germany.html";
     }
-    
+
 
 
 
