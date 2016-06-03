@@ -1,20 +1,42 @@
+.container {
+  margin-bottom: 50px;
+}
+
 .form-group {
   border-bottom: solid 1px black;
   background-color: lightgrey;
   padding-left: 10px
+
 }
 
 .form-group label {
   font-style: italic;
 }
 
-.jumbotron {
+.header h1, h2 {
+  text-align: center;
+  font-family: impact;
+  color: white;
+  text-shadow: 3px 3px #000;
+}
+
+.jumbotron.header {
+  background-image: url(../img/header.jpg);
+  background-size: cover;
+  border-bottom: solid 1px black;
+}
+
+
+
+.jumbotron.result {
   background-size: cover;
   padding-top: 30%;
   padding-bottom: 30%;
   margin-top: 50px;
   color: white;
   text-shadow: 3px 3px #000;
+  border: solid 2px black;
+  font-family: impact;
 }
 
 .jumbotron.china {
@@ -39,7 +61,15 @@
 
 .yourVacation {
   font-size: 20px;
-  font-family: sans-serif;;
-  border: solid 1px black;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
   border-radius: 5%;
+}
+
+button {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
