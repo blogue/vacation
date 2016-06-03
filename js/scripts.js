@@ -1,4 +1,17 @@
 
+function indexOfMax(array){
+
+  var max = array[0];
+  var maxIndex = 0;
+
+  for (i = 1; i < array.length; i++) {
+    if (array[i] > max) {
+      maxIndex = i;
+      max = array[i];
+    }
+  }
+  return maxIndex;
+}
 
 $(document).ready(function(){
 
@@ -18,6 +31,7 @@ $(document).ready(function(){
     var canada = 0;
     var germany = 0;
 
+
     for (i = 0; i < 6; i++) {
       if (answer[i] === "china1") {
         china++;
@@ -32,11 +46,14 @@ $(document).ready(function(){
       }
     }
 
-    console.log(china);
-    console.log(mexico);
-    console.log(england);
-    console.log(canada);
-    console.log(germany);
+    var tally = [china, mexico, england, canada, germany];
+
+    var vacationResult = indexOfMax(tally);
+    console.log(tally);
+    console.log(indexOfMax(tally));
+    console.log(vacationResult);
+
+
 
 
     event.preventDefault();
