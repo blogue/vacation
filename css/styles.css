@@ -4,13 +4,19 @@
 
 .form-group {
   border-bottom: solid 1px black;
-  background-color: lightgrey;
-  padding-left: 10px
+  background-color: ;
+  padding-left: 10px;
+  border-radius: 2%;
+}
 
+.question-icon {
+  width: 30px;
+  float: left;
 }
 
 .form-group label {
   font-style: italic;
+  font-size: 20px;
 }
 
 .header h1, h2 {
@@ -24,6 +30,7 @@
   background-image: url(../img/header.jpg);
   background-size: cover;
   border-bottom: solid 1px black;
+  margin-bottom: -20px;
 }
 
 
