@@ -14,7 +14,6 @@ function indexOfMax(array){
 }
 
 $(document).ready(function(){
-
   $("form#user-input").submit(function(event){
     var q1 = $("input:radio[name=question1]:checked").val();
     var q2 = $("input:radio[name=question2]:checked").val();
@@ -30,7 +29,6 @@ $(document).ready(function(){
     var england = 0;
     var canada = 0;
     var germany = 0;
-
 
     for (i = 0; i < 6; i++) {
       if (answer[i] === "china1") {
@@ -49,9 +47,9 @@ $(document).ready(function(){
     var tally = [china, mexico, england, canada, germany];
 
     var vacationResult = indexOfMax(tally);
-    console.log(tally);
-    console.log(vacationResult);
-
+    $("form").hide();
+    $(".header").hide();
+    $('html,body').scrollTop(0);
     if (vacationResult === 0) {
       document.location.href = "result/china.html";
     } else if (vacationResult === 1) {
@@ -59,12 +57,10 @@ $(document).ready(function(){
     } else if (vacationResult === 2) {
       document.location.href = "result/england.html";
     } else if (vacationResult === 3) {
-      document.location.href = "result/canada.html";
+      $("#canada").show();
     } else if (vacationResult === 4) {
       document.location.href = "result/germany.html";
     }
-
-
     event.preventDefault();
   });
 });

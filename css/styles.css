@@ -33,8 +33,6 @@
   margin-bottom: -20px;
 }
 
-
-
 .jumbotron.result {
   background-size: cover;
   padding-top: 30%;
@@ -79,4 +77,8 @@
 button {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.match {
+  display: none;
 }
