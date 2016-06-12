@@ -51,7 +51,7 @@ $(document).ready(function(){
     $(".header").hide();
     $('html,body').scrollTop(0);
     if (vacationResult === 0) {
-      document.location.href = "result/china.html";
+      $("#china").show();
     } else if (vacationResult === 1) {
       document.location.href = "result/mexico.html";
     } else if (vacationResult === 2) {
