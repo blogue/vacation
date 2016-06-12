@@ -55,7 +55,7 @@ $(document).ready(function(){
     } else if (vacationResult === 1) {
       document.location.href = "result/mexico.html";
     } else if (vacationResult === 2) {
-      document.location.href = "result/england.html";
+      $("#england").show();
     } else if (vacationResult === 3) {
       $("#canada").show();
     } else if (vacationResult === 4) {
