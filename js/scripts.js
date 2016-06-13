@@ -53,13 +53,13 @@ $(document).ready(function(){
     if (vacationResult === 0) {
       $("#china").show();
     } else if (vacationResult === 1) {
-      document.location.href = "result/mexico.html";
+      $("#mexico").show();
     } else if (vacationResult === 2) {
       $("#england").show();
     } else if (vacationResult === 3) {
       $("#canada").show();
     } else if (vacationResult === 4) {
-      document.location.href = "result/germany.html";
+      $("#germany").show();
     }
     event.preventDefault();
   });
