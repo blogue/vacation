@@ -1,7 +1,6 @@
 # _Vacation Survey_
 
-#### _Application takes answers to questions from user and returns a suggested vacation destination.}, {6/3/16_
-
+#### _Application takes answers to questions from user and returns a suggested vacation destination., 6/12/16
 #### By _**Benjamin Logue**_
 
 ## Description
